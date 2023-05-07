@@ -2,19 +2,114 @@ body {
   margin: 0%;
 }
 header {
-  display: inherit;
-  position: relative;
+  display: flex;
   top: 30px;
-  width: auto;
-  height: 50px;
-  text-align: center;
+  text-align: initial;
   word-spacing: normal;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 .nav {
-  position: inherit;
-  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 2em;
+  position: relative;
+  width: max-content;
   height: 100px;
   background: #ffffff;
+  align-items: center;
+  align-content: center;
+}
+.WebStudio {
+  position: initial;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.Studio {
+  position: static;
+  width: 42px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.portofolio {
+  position: static;
+  width: 58px;
+  height: 16px;
+  left: 545px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.contacts {
+  position: static;
+  width: 58px;
+  height: 16px;
+  left: 545px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.mail {
+  margin-left: 15cm;
+  position: static;
+  width: 135px;
+  height: 16px;
+  left: 1097px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.tel {
+  position: static;
+  width: 113px;
+  height: 16px;
+  left: 1272px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
 }
 main {
   padding: 0%;
@@ -22,19 +117,19 @@ main {
   border: 0%;
 }
 .section {
+  display: flex;
   position: inherit;
   width: auto;
   height: 500px;
   background: #2f303a;
 }
 h1 {
-  display: inherit;
-  position: relative;
-  margin-block-end: auto;
+  display: flex;
+  position: absolute;
   width: 696px;
   height: 120px;
   left: 452px;
-  top: 150px;
+  top: 280px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
