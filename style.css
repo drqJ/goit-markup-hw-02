@@ -150,16 +150,15 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.container {
+.commitment-container {
+  padding-top: 2cm;
+  padding-bottom: 3cm;
   display: flex;
   justify-content: space-around;
 }
 .details {
-  position: static;
   width: 270px;
   height: 16px;
-  left: 215px;
-  top: 774px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -170,11 +169,8 @@ h1 {
   color: #212121;
 }
 .punctuality {
-  position: static;
   width: 270px;
   height: 16px;
-  left: 515px;
-  top: 774px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -185,7 +181,6 @@ h1 {
   color: #212121;
 }
 .planning {
-  position: static;
   width: 270px;
   height: 16px;
   left: 515px;
@@ -200,11 +195,8 @@ h1 {
   color: #212121;
 }
 .technologies {
-  position: static;
   width: 270px;
   height: 16px;
-  left: 515px;
-  top: 774px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -215,11 +207,7 @@ h1 {
   color: #212121;
 }
 .text1 {
-  position: static;
   width: 270px;
-  height: 75px;
-  left: 515px;
-  top: 800px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -229,11 +217,8 @@ h1 {
   color: #757575;
 }
 .text2 {
-  position: static;
   width: 270px;
   height: 75px;
-  left: 515px;
-  top: 800px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -243,11 +228,8 @@ h1 {
   color: #757575;
 }
 .text3 {
-  position: static;
   width: 270px;
   height: 75px;
-  left: 815px;
-  top: 800px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -257,11 +239,8 @@ h1 {
   color: #757575;
 }
 .text4 {
-  position: static;
   width: 270px;
   height: 75px;
-  left: 1115px;
-  top: 800px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -271,18 +250,20 @@ h1 {
   color: #757575;
 }
 .services-container {
+  align-items: flex-start;
   display: flex;
-  justify-content: space-around;
-  gap: inherit;
-  row-gap: 3em;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
-.title {
-  display: flex;
-  position: static;
+p {
+  position: absolute;
+  margin: initial;
   width: 198px;
   height: 42px;
   left: 701px;
-  top: 969px;
+  top: 800px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -292,9 +273,192 @@ h1 {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.crew {
-  color: aqua;
+.imgs {
+  justify-content: flex-start;
+  margin: initial;
+  padding-left: initial;
+  gap: 20px;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
-footer {
-  color: pink;
+.crew-container {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+h4 {
+  margin: initial;
+  position: absolute;
+  width: 165px;
+  height: 42px;
+  left: 718px;
+  top: -1cm;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
+}
+.staff {
+  justify-content: flex-start;
+  margin: initial;
+  padding-top: 2cm;
+  padding-left: initial;
+  gap: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.chris {
+  list-style: none;
+  margin: initial;
+  padding-left: initial;
+  width: 270px;
+  height: 260px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.kylie {
+  list-style: none;
+  margin: initial;
+  padding-left: initial;
+  width: 270px;
+  height: 260px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.ryan {
+  list-style: none;
+  margin: initial;
+  padding-left: initial;
+  width: 270px;
+  height: 260px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.tyler {
+  list-style: none;
+  margin: initial;
+  padding-left: initial;
+  width: 270px;
+  height: 260px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.footer-container {
+  color: #ffffff;
+  position: absolute;
+  width: 1600px;
+  height: 251px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+.address-link {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.street {
+  position: absolute;
+  width: 207px;
+  height: 16px;
+  left: 215px;
+  top: 2cm;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.location {
+  position: absolute;
+  width: 207px;
+  height: 16px;
+  left: 215px;
+  top: 2cm;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contact {
+  padding: initial;
+  list-style: none;
+  position: absolute;
+  width: 207px;
+  height: 16px;
+}
+.email {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.phone {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
